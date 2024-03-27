@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import './globals.css'
+import Footer from "@/Components/footer";
+import Nav from "@/Components/Nav";
 
 export const metadata: Metadata = {
   title: "Fast Internet - from Space",
@@ -14,7 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body >
-        {children}</body>
+        <Nav/>
+        {children}
+        <Footer/>
+        </body>
+
     </html>
   );
 }
