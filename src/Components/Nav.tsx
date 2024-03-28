@@ -18,6 +18,7 @@ export default function Nav() {
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <Link href={"/"} className="mr-5 cursor-pointer hover:text-black">Home</Link>
             <Link href={"/about"} className="mr-5 cursor-pointer hover:text-black">About</Link>
+            <Link href={"/pricing"} className="mr-5 cursor-pointer hover:text-black">Pricing</Link>
             <Link href={"/working"} className="mr-5 cursor-pointer hover:text-black">How it work</Link>
             <Link href={"/contact"} className="mr-5 cursor-pointer hover:text-black">Contact</Link>
  
