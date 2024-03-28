@@ -4,7 +4,7 @@ import Footer from "@/Components/footer";
 import Nav from "@/Components/Nav";
 
 export const metadata: Metadata = {
-  title: "Fast Internet - from Space",
+  title: "Light Speed - We provide Fast Internet from Space",
   description: "We are an agency responsible providing internet from space",
 };
 
